@@ -13,6 +13,7 @@
 }
 
 .navbar ul li {
+  border-right: 1px solid white;
   padding: 8dp;
   float: left;
 }
