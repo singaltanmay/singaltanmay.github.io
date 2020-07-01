@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar.js";
 import Intro from "./components/Intro.js";
+import Experience from "./components/Experience.js";
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div>
@@ -14,6 +15,7 @@ class App extends React.Component {
         <h1>Portfolio</h1>
         <br />
         <Intro />
+        <Experience />
       </div>
     );
   }
