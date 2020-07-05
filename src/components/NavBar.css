@@ -1,10 +1,13 @@
-.navbar {
-  position: fixed;
+/* .navbar {
+  background-color: #3ba0a9;
+  */
+/*   position: fixed;
   top: 0;
   width: 100%;
-}
+ */
+/*}*/
 
-.navbar ul {
+/* .navbar ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -24,14 +27,14 @@
   padding: 14px 16px;
   display: block;
   color: white;
-}
+} */
 
 /* Change color of selected item */
-.navitem-active {
+/* .navitem-active {
   background-color: #4caf50;
-}
+} */
 
 /* Change the link color to #111 (black) on hover */
-.navbar ul li a:hover {
+/* .navbar ul li a:hover {
   background-color: #111;
-}
+} */

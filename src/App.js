@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import NavBar from "./components/NavBar.js";
 import Intro from "./components/Intro.js";
 import Experience from "./components/Experience.js";
@@ -12,9 +11,6 @@ class App extends Component {
         <header>
           <NavBar />
         </header>
-        <br />
-        <h1>Portfolio</h1>
-        <br />
         <Intro />
         <Experience />
       </div>
