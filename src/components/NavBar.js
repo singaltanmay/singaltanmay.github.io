@@ -4,7 +4,7 @@ import "./NavBar.css";
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
           PORTFOLIO
         </a>
