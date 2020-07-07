@@ -36,7 +36,7 @@ const payload = [
 
 const Experience = () => {
   return (
-    <div>
+    <div className="container" id="experience-section">
       <h3>Experience</h3>
       <div className="card-deck">
         {payload.map((item, index) => (

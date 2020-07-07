@@ -6,7 +6,11 @@ const ExperienceItem = ({ content }) => {
     <div class="card border-dark mb-3 experience-card">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src={content.logo} class="card-img company-logo" />
+          <img
+            src={content.logo}
+            class="card-img company-logo"
+            loading="lazy"
+          />
         </div>
         <div class="col-md-8">
           <div class="card-body">

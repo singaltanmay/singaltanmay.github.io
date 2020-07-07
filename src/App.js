@@ -3,17 +3,18 @@ import NavBar from "./components/NavBar.js";
 import Intro from "./components/Intro.js";
 import Experience from "./components/Experience.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <header>
+      <React.Fragment>
+        <header className="container header-navbar">
           <NavBar />
         </header>
         <Intro />
         <Experience />
-      </div>
+      </React.Fragment>
     );
   }
 }
