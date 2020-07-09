@@ -3,21 +3,21 @@ import "./ExperienceItem.css";
 
 const ExperienceItem = ({ content }) => {
   return (
-    <div class="card border-dark mb-3 experience-card">
-      <div class="row no-gutters">
-        <div class="col-md-4">
+    <div className="card border-dark mb-3 experience-card">
+      <div className="row no-gutters">
+        <div className="col-md-4">
           <img
             src={content.logo}
-            class="card-img company-logo"
+            className="card-img company-logo"
             loading="lazy"
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{content.role}</h5>
-            <h6 class="card-subtitle">{content.organization}</h6>
-            <p class="card-text">
-              <small class="text-muted">
+        <div className="col-md-8">
+          <div className="card-body">
+            <h5 className="card-title">{content.role}</h5>
+            <h6 className="card-subtitle">{content.organization}</h6>
+            <p className="card-text">
+              <small className="text-muted">
                 {content.from} -- {content.to}
               </small>
             </p>
@@ -25,7 +25,7 @@ const ExperienceItem = ({ content }) => {
         </div>
       </div>
       <div>
-        <p class="card-text">{content.description}</p>
+        <p className="card-text">{content.description}</p>
       </div>
     </div>
   );

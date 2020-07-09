@@ -13,7 +13,7 @@ const Intro = () => {
         learn something new.
       </p>
       <a
-        class="btn btn-primary btn-lg"
+        className="btn btn-primary btn-lg"
         href="https://github.com/singaltanmay/"
         role="button"
       >

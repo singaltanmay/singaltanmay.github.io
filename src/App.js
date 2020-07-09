@@ -4,6 +4,7 @@ import Intro from "./components/Intro.js";
 import Experience from "./components/Experience.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Projects from "./components/Projects.js";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         </header>
         <Intro />
         <Experience />
+        <Projects />
       </React.Fragment>
     );
   }
