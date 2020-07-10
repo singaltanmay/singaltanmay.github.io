@@ -11,10 +11,10 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <header className="container header-navbar">
+        <header className="container-fluid header-navbar colored-section">
           <NavBar />
+          <Intro />
         </header>
-        <Intro />
         <Experience />
         <Projects />
         <footer>

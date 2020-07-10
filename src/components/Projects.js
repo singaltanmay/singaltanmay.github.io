@@ -34,7 +34,7 @@ const payload = [
 
 const Projects = () => {
   return (
-    <div className="container" id="projects-section">
+    <div className="container-fluid colored-section" id="projects-section">
       <h3>Projects</h3>
       <div className="card-deck">
         {payload.map((item, index) => (
