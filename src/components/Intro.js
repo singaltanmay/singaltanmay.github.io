@@ -12,13 +12,14 @@ const Intro = () => {
         collaborative team worker who is always looking for an opportunity to
         learn something new.
       </p>
-      <a
-        className="btn btn-primary btn-lg"
+      <button
+        className="btn btn-outline-light btn-lg icon-button"
         href="https://github.com/singaltanmay/"
         role="button"
       >
-        GitHub
-      </a>
+        <i class="fab fa-github"></i>
+        <span className="button-text">GitHub</span>
+      </button>
     </div>
   );
 };
