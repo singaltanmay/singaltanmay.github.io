@@ -5,6 +5,7 @@ import Experience from "./components/Experience.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Projects from "./components/Projects.js";
+import Footer from "./components/Footer.js";
 
 class App extends Component {
   render() {
@@ -16,6 +17,9 @@ class App extends Component {
         <Intro />
         <Experience />
         <Projects />
+        <footer>
+          <Footer />
+        </footer>
       </React.Fragment>
     );
   }

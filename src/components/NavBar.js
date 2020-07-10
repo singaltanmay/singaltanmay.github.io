@@ -24,7 +24,7 @@ class NavBar extends Component {
         <div className="collapse navbar-collapse" id="navcontrols">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#intro-section">
                 About
               </a>
             </li>
@@ -39,7 +39,7 @@ class NavBar extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact-section">
                 Contact
               </a>
             </li>
