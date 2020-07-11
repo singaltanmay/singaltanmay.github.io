@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <div className="container-fluid" id="projects-section">
       <h3>Projects</h3>
-      <div className="card-deck">
+      <div className="row">
         {payload.map((item, index) => (
           <ProjectsItem key={index} content={payload[index]} />
         ))}

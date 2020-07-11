@@ -28,6 +28,17 @@
   padding-left: 8px;
 }
 
+.padded-card {
+  padding: 1rem;
+}
+
+.company-logo {
+  width: 12px;
+  text-align: center;
+  padding: 20px;
+  object-fit: contain;
+}
+
 .social-icons {
   text-align: center;
 }

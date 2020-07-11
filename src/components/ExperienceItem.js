@@ -1,9 +1,8 @@
 import React from "react";
-import "./ExperienceItem.css";
 
 const ExperienceItem = ({ content }) => {
   return (
-    <div className="card border-dark mb-3 experience-card">
+    <div className="card col-lg-4 col-md-6 col-sm-12 padded-card">
       <div className="row no-gutters">
         <div className="col-md-4">
           <img
