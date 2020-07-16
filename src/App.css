@@ -5,13 +5,6 @@
   --color-lightest: #e2f3f5;
 }
 
-/* Change text highlighting colors */
-*::selection,
-*::-moz-selection {
-  background-color: var(--color-lightest);
-  color: var(--color-mid);
-}
-
 .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -27,8 +20,20 @@
   color: var(--color-lightest);
 }
 
+/* Change text highlighting colors */
+.colored-section *::selection,
+.colored-section *::-moz-selection {
+  background-color: var(--color-lightest);
+  color: var(--color-mid);
+}
+
 .button-text {
   padding-left: 8px;
+}
+
+.card-parent {
+  padding: 0.5rem;
+  display: flex;
 }
 
 .padded-card {
