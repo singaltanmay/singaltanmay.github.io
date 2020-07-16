@@ -1,12 +1,15 @@
-/* Change text highlighting colors */
-*::selection {
-  background-color: #00a79d;
-  color: #ffeecf;
+:root {
+  --color-darkest: #0e153a;
+  --color-mid: #3d5af1;
+  --color-light: #22d1ee;
+  --color-lightest: #e2f3f5;
 }
 
+/* Change text highlighting colors */
+*::selection,
 *::-moz-selection {
-  background-color: #00a79d;
-  color: #ffeecf;
+  background-color: var(--color-lightest);
+  color: var(--color-mid);
 }
 
 .container-fluid {
@@ -20,8 +23,8 @@
 }
 
 .colored-section {
-  background-color: #007065;
-  color: #ffeecf;
+  background-color: var(--color-darkest);
+  color: var(--color-lightest);
 }
 
 .button-text {
@@ -44,12 +47,12 @@
 }
 
 .social-icon {
-  color: #ffeecf;
+  color: var(--color-lightest);
   margin: 1rem;
 }
 
 .social-icon:hover {
-  color: #f5c181;
+  color: var(--color-light);
 }
 
 .copyright {
