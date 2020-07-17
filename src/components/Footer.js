@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="social-icons">
         <SocialContact />
       </div>
+      <br />
       <h6 className="copyright">© Handcrafted by Tanmay Singal</h6>
     </div>
   );
