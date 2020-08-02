@@ -1,5 +1,8 @@
 import React from "react";
 import ExperienceItem from "./ExperienceItem";
+import GA4GH_logo from "./../images/GA4GH_logo.png";
+import Unthinkable_logo from "./../images/unthinkable_logo.png";
+import ITD_logo from "./../images/ITD_logo.png";
 
 const payload = [
   {
@@ -11,7 +14,7 @@ const payload = [
     to: "Aug 2020",
     description:
       "Got selected as a Google Summer of Code applicant and worked on a tool to resolve aliases between various nomenclatures of genomic sequences.",
-    icon: "",
+    icon: GA4GH_logo,
   },
   {
     role: "Java Developer (Intern)",
@@ -22,6 +25,7 @@ const payload = [
     to: "Feb 2020",
     description:
       "Developed REST APIs using Java SpringBoot and Postgres as backend with accompanying Android app.",
+    icon: Unthinkable_logo,
   },
   {
     role: "Cybersecurity Intern",
@@ -32,6 +36,7 @@ const payload = [
     to: "Aug 2020",
     description:
       "Learnt about various cybersecurity protocols and techniques used to prevent cybercrime against CPC (TDS) services such as filing Income Tax Returns.",
+    icon: ITD_logo,
   },
 ];
 

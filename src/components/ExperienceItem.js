@@ -5,12 +5,8 @@ const ExperienceItem = ({ content }) => {
     <div className="col-lg-4 col-md-6 col-sm-12 card-parent">
       <div className="card padded-card">
         <div className="row no-gutters">
-          <div className="col-md-4">
-            <img
-              src={content.logo}
-              className="card-img company-logo"
-              loading="lazy"
-            />
+          <div className="col-md-4 company-logo">
+            <img src={content.icon} className="card-img" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
