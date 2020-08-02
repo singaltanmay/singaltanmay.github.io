@@ -11,6 +11,7 @@ const payload = [
     to: "Aug 2020",
     description:
       "Got selected as a Google Summer of Code applicant and worked on a tool to resolve aliases between various nomenclatures of genomic sequences.",
+    icon: "",
   },
   {
     role: "Java Developer (Intern)",
