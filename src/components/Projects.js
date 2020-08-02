@@ -9,7 +9,8 @@ const payload = [
   },
   {
     name: "Daffodil-Renters",
-    description: "Server and client of a housing / real-estate app.",
+    description:
+      "Server and client of a housing / real-estate app. Uses SpringBoot and PostgreSQL.",
     link: "https://github.com/singaltanmay/Daffodil-Renters",
   },
   {
